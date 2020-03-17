@@ -1,0 +1,102 @@
+.links {
+  font-family: "Amatic SC", cursive;
+  font-size: 47px;
+  text-decoration: none;
+  color: #000000;
+  writing-mode: vertical-rl;
+}
+
+.links:hover {
+  color: #ffffff;
+}
+
+.divContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.background {
+  height: 110px;
+  width: 60px;
+  background-color: #41aba9;
+  margin-bottom: 0px;
+}
+
+.artwork {
+  height: 110px;
+  width: 60px;
+  background-color: #f2f19e;
+  margin-bottom: 0px;
+}
+
+.projects {
+  height: 110px;
+  width: 60px;
+  background-color: #5eefae;
+  margin-bottom: 0px;
+}
+
+.tech {
+  height: 110px;
+  width: 60px;
+  background-color: #c2bda0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.contact {
+  height: 110px;
+  width: 60px;
+  background-color: #f1e85b;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.trianglesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.triangle1 {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid #41aba9;
+}
+
+.triangle2 {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid #f2f19e;
+}
+
+.triangle3 {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid #5eefae;
+}
+
+.triangle4 {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid #c2bda0;
+  margin-top: 0px;
+}
+
+.triangle5 {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid #f1e85b;
+  margin-top: 0px;
+}

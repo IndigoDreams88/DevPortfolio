@@ -1,0 +1,109 @@
+.leftPanel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-self: center;
+  height: 650px;
+  background-color: #ffffff;
+  border: #000000 solid 3px;
+}
+
+.rightPanel {
+  height: 650px;
+  background-color: #f2f19e;
+}
+
+.welcomeText {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.titleText {
+  font-family: "Rock Salt", cursive;
+  font-size: 45px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.credits {
+  font-size: 10px;
+}
+
+.imgArea {
+  margin-top: 0px;
+}
+.images {
+  margin: 5px;
+  height: 240px;
+  width: 270px;
+  border: #c2bda0 solid 3px;
+}
+
+.contactDetails {
+  margin-top: 25px;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+}
+
+.projectArea {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+}
+
+.Ambiscape {
+  margin-top: 10px;
+  background-image: url("https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/89737632_10157899286443467_1808594154066804736_n.jpg?_nc_cat=111&_nc_sid=e007fa&_nc_oc=AQkzE8I0hv44OWhnVeUuyIe2oVP-1gQZMCL_XPShUGZxaTdigNF96TCs7j01RbzJ0I8&_nc_ht=scontent-lhr8-1.xx&oh=a6a1e881912ffcab05d2285d0544d874&oe=5E92A976");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 300px;
+}
+
+.AmbiscapeImg {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  height: 160px;
+  width: 280px;
+  transition: transform 0.2s;
+}
+
+.Ambiscape:hover {
+  transform: scale(1.12);
+}
+
+.NCNews {
+  margin-top: 20px;
+  background-image: url("https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/89737632_10157899286443467_1808594154066804736_n.jpg?_nc_cat=111&_nc_sid=e007fa&_nc_oc=AQkzE8I0hv44OWhnVeUuyIe2oVP-1gQZMCL_XPShUGZxaTdigNF96TCs7j01RbzJ0I8&_nc_ht=scontent-lhr8-1.xx&oh=a6a1e881912ffcab05d2285d0544d874&oe=5E92A976");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 300px;
+}
+
+.NCNewsImg {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  height: 160px;
+  width: 280px;
+  transition: transform 0.2s;
+}
+
+.NCNews:hover {
+  transform: scale(1.12);
+}
+
+.buttons {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.buttons:hover {
+  color: #41aba9;
+}
