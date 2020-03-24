@@ -28,13 +28,8 @@ function Tech() {
         </center>
         <div className={styles.rightPanel}>
           <center>
-            <h1 className={styles.mainHeading}>Noughts And Crosses Game</h1>
+            <h1 className={styles.mainHeading}>Noughts and Crosses</h1>
 
-            <p className={styles.instructionsText}>
-              Take it in turns to score three in a row, using your mouse to
-              click the squares. Player 1 (X) goes first, then player 2 (O).
-              Good luck!{" "}
-            </p>
             <NoughtsAndCrossesGame />
           </center>
 
