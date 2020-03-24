@@ -150,7 +150,7 @@
   width: 70px;
   margin: 0px;
   padding: 0px;
-  opacity: 50%;
+  /* opacity: 50%; */
 }
 
 .selectedImg {
@@ -158,5 +158,5 @@
   width: 70px;
   margin: 0px;
   padding: 0px;
-  opacity: 100%;
+  /* opacity: 100%; */
 }
