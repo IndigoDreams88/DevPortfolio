@@ -152,3 +152,11 @@
   padding: 0px;
   opacity: 50%;
 }
+
+.selectedImg {
+  height: 70px;
+  width: 70px;
+  margin: 0px;
+  padding: 0px;
+  opacity: 100%;
+}

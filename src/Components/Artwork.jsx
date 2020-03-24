@@ -33,7 +33,8 @@ class Artwork extends Component {
   };
 
   render() {
-    const { currentIndex, picturesArray } = this.state;
+    const { currentIndex, currentIndexURL, picturesArray } = this.state;
+    console.log(currentIndex, currentIndexURL);
 
     return (
       <div>
@@ -57,31 +58,41 @@ class Artwork extends Component {
                   <img
                     src={picturesArray[0].img}
                     alt="artwork"
-                    className={styles.imgIcons}
+                    className={
+                      currentIndex === 0 ? styles.selectedImg : styles.imgIcons
+                    }
                     onClick={() => this.selectMiniImg(0)}
                   />
                   <img
                     src={picturesArray[1].img}
                     alt="artwork"
-                    className={styles.imgIcons}
+                    className={
+                      currentIndex === 1 ? styles.selectedImg : styles.imgIcons
+                    }
                     onClick={() => this.selectMiniImg(1)}
                   />
                   <img
                     src={picturesArray[2].img}
                     alt="artwork"
-                    className={styles.imgIcons}
+                    className={
+                      currentIndex === 2 ? styles.selectedImg : styles.imgIcons
+                    }
                     onClick={() => this.selectMiniImg(2)}
                   />
                   <img
                     src={picturesArray[3].img}
                     alt="artwork"
-                    className={styles.imgIcons}
+                    className={
+                      currentIndex === 3 ? styles.selectedImg : styles.imgIcons
+                    }
                     onClick={() => this.selectMiniImg(3)}
                   />
                   <img
                     src={picturesArray[4].img}
                     alt="artwork"
-                    className={styles.imgIcons}
+                    className={
+                      currentIndex === 4 ? styles.selectedImg : styles.imgIcons
+                    }
                     onClick={() => this.selectMiniImg(4)}
                   />
                 </div>
@@ -114,31 +125,41 @@ class Artwork extends Component {
                 <img
                   src={picturesArray[5].img}
                   alt="artwork"
-                  className={styles.imgIcons}
+                  className={
+                    currentIndex === 5 ? styles.selectedImg : styles.imgIcons
+                  }
                   onClick={() => this.selectMiniImg(5)}
                 />
                 <img
                   src={picturesArray[6].img}
                   alt="artwork"
-                  className={styles.imgIcons}
+                  className={
+                    currentIndex === 6 ? styles.selectedImg : styles.imgIcons
+                  }
                   onClick={() => this.selectMiniImg(6)}
                 />
                 <img
                   src={picturesArray[7].img}
                   alt="artwork"
-                  className={styles.imgIcons}
+                  className={
+                    currentIndex === 7 ? styles.selectedImg : styles.imgIcons
+                  }
                   onClick={() => this.selectMiniImg(7)}
                 />
                 <img
                   src={picturesArray[8].img}
                   alt="artwork"
-                  className={styles.imgIcons}
+                  className={
+                    currentIndex === 8 ? styles.selectedImg : styles.imgIcons
+                  }
                   onClick={() => this.selectMiniImg(8)}
                 />
                 <img
                   src={picturesArray[9].img}
                   alt="artwork"
-                  className={styles.imgIcons}
+                  className={
+                    currentIndex === 9 ? styles.selectedImg : styles.imgIcons
+                  }
                   onClick={() => this.selectMiniImg(9)}
                 />
               </div>
@@ -169,9 +190,9 @@ class Artwork extends Component {
       }
     })[0];
 
-    this.setState({
+    return this.setState({
       currentIndex: slideNum,
-      currentIndexURL: selected.img
+      currentIndexURL: selected
     });
   };
 }
