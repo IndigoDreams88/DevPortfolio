@@ -13,3 +13,39 @@
   width: 90px;
   height: 90px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .icons {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .icons {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .icons {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}

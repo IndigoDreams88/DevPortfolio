@@ -2,4 +2,32 @@
   font-family: "Dosis", sans-serif;
   font-size: 20px;
   margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contactDetails {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contactDetails {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contactDetails {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    margin-top: 250px;
+    margin-bottom: 0px;
+  }
 }

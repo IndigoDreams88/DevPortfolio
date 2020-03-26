@@ -14,14 +14,6 @@
   background-repeat: no-repeat;
 }
 
-.portrait {
-  height: 400px;
-  width: 400px;
-  border-radius: 400px;
-  border: #c2bda0 solid 5px;
-  margin-top: 100px;
-}
-
 .welcomeText {
   font-family: "Dosis", sans-serif;
   font-size: 20px;
@@ -159,4 +151,656 @@
   margin: 0px;
   padding: 0px;
   /* opacity: 100%; */
+}
+
+@media only screen and (max-width: 1024px) {
+  .leftPanel {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: hsl(0, 0%, 100%);
+    height: 100%;
+    border: none;
+  }
+
+  .rightPanel {
+    background-image: url("https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/p960x960/89496968_10157884445978467_1702569218462973952_o.jpg?_nc_cat=110&_nc_sid=e007fa&_nc_oc=AQm2dNuWAui1-gSGsdylPilrCvH-5T6anJDXWEt680jkPTPl7zuXwnPZSnX-G7j_hnM&_nc_ht=scontent-lhr8-1.xx&_nc_tp=6&oh=e3cb3283a00a0fe67b2b3c010dc9a369&oe=5E8D4712");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .welcomeText {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .titleText {
+    font-family: "Rock Salt", cursive;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .titleText2 {
+    font-family: "Rock Salt", cursive;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #21d8c6, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 12s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+  .credits {
+    font-size: 10px;
+    margin-bottom: 900px;
+  }
+
+  .imgArea {
+    margin-top: 30px;
+    height: 60%;
+    width: 80%;
+    background-color: antiquewhite;
+    justify-self: center;
+    justify-content: center;
+  }
+
+  .contactDetails {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .mainImg {
+    background-color: blueviolet;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .description {
+    background-color: #c2bda0;
+    height: 60px;
+  }
+
+  .mainImgArea {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .leftArrow {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 160px;
+  }
+
+  .mainImg {
+    height: 350px;
+    width: 350px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .rightArrow {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 140px;
+  }
+
+  .textArea {
+    width: 350px;
+    height: 50px;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .textStyle {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .imgIconArea {
+    width: 350px;
+    height: 70px;
+    display: flex;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+  }
+
+  .imgIcons {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 30px;
+    padding: 0px;
+    /* opacity: 50%; */
+  }
+
+  .selectedImg {
+    height: 70px;
+    width: 70px;
+    margin: 0px;
+    padding: 0px;
+    /* opacity: 100%; */
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .leftPanel {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: hsl(0, 0%, 100%);
+    height: 100%;
+    border: none;
+  }
+
+  .rightPanel {
+    background-image: url("https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/p960x960/89496968_10157884445978467_1702569218462973952_o.jpg?_nc_cat=110&_nc_sid=e007fa&_nc_oc=AQm2dNuWAui1-gSGsdylPilrCvH-5T6anJDXWEt680jkPTPl7zuXwnPZSnX-G7j_hnM&_nc_ht=scontent-lhr8-1.xx&_nc_tp=6&oh=e3cb3283a00a0fe67b2b3c010dc9a369&oe=5E8D4712");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .welcomeText {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .titleText {
+    font-family: "Rock Salt", cursive;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .titleText2 {
+    font-family: "Rock Salt", cursive;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #21d8c6, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 12s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+  .credits {
+    font-size: 10px;
+    margin-bottom: 500px;
+  }
+
+  .imgArea {
+    margin-top: 30px;
+    height: 60%;
+    width: 80%;
+    background-color: antiquewhite;
+    justify-self: center;
+    justify-content: center;
+  }
+
+  .contactDetails {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .mainImg {
+    background-color: blueviolet;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .description {
+    background-color: #c2bda0;
+    height: 60px;
+  }
+
+  .mainImgArea {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .leftArrow {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 160px;
+  }
+
+  .mainImg {
+    height: 350px;
+    width: 350px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .rightArrow {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 140px;
+  }
+
+  .textArea {
+    width: 350px;
+    height: 50px;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .textStyle {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .imgIconArea {
+    width: 350px;
+    height: 70px;
+    display: flex;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+  }
+
+  .imgIcons {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 30px;
+    padding: 0px;
+    /* opacity: 50%; */
+  }
+
+  .selectedImg {
+    height: 70px;
+    width: 70px;
+    margin: 0px;
+    padding: 0px;
+    /* opacity: 100%; */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .leftPanel {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: hsl(0, 0%, 100%);
+    height: 100%;
+    border: none;
+  }
+
+  .rightPanel {
+    background-image: url("https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/p960x960/89496968_10157884445978467_1702569218462973952_o.jpg?_nc_cat=110&_nc_sid=e007fa&_nc_oc=AQm2dNuWAui1-gSGsdylPilrCvH-5T6anJDXWEt680jkPTPl7zuXwnPZSnX-G7j_hnM&_nc_ht=scontent-lhr8-1.xx&_nc_tp=6&oh=e3cb3283a00a0fe67b2b3c010dc9a369&oe=5E8D4712");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .welcomeText {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .titleText {
+    font-family: "Rock Salt", cursive;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .titleText2 {
+    font-family: "Rock Salt", cursive;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #21d8c6, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 12s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+  .credits {
+    font-size: 10px;
+    margin-bottom: 300px;
+  }
+
+  .imgArea {
+    margin-top: 30px;
+    height: 60%;
+    width: 80%;
+    background-color: antiquewhite;
+    justify-self: center;
+    justify-content: center;
+  }
+
+  .contactDetails {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .mainImg {
+    background-color: blueviolet;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .description {
+    background-color: #c2bda0;
+    height: 60px;
+  }
+
+  .mainImgArea {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  img.leftArrow {
+    display: none;
+  }
+  /* 
+  .leftArrow {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 160px;
+  } */
+
+  .mainImg {
+    height: 350px;
+    width: 350px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  img.rightArrow {
+    display: none;
+  }
+
+  /* .rightArrow {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 140px;
+  } */
+
+  .textArea {
+    width: 350px;
+    height: 50px;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .textStyle {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .imgIconArea {
+    width: 350px;
+    height: 70px;
+    display: flex;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+  }
+
+  .imgIcons {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 30px;
+    padding: 0px;
+    /* opacity: 50%; */
+  }
+
+  .selectedImg {
+    height: 70px;
+    width: 70px;
+    margin: 0px;
+    padding: 0px;
+    /* opacity: 100%; */
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .leftPanel {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: hsl(0, 0%, 100%);
+    height: 100%;
+    border: none;
+  }
+
+  .rightPanel {
+    background-image: url("https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/p960x960/89496968_10157884445978467_1702569218462973952_o.jpg?_nc_cat=110&_nc_sid=e007fa&_nc_oc=AQm2dNuWAui1-gSGsdylPilrCvH-5T6anJDXWEt680jkPTPl7zuXwnPZSnX-G7j_hnM&_nc_ht=scontent-lhr8-1.xx&_nc_tp=6&oh=e3cb3283a00a0fe67b2b3c010dc9a369&oe=5E8D4712");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .welcomeText {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .titleText {
+    font-family: "Rock Salt", cursive;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .titleText2 {
+    font-family: "Rock Salt", cursive;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #21d8c6, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 12s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+  .credits {
+    font-size: 10px;
+    margin-bottom: 100px;
+  }
+
+  .imgArea {
+    margin-top: 30px;
+    height: 50%;
+    width: 70%;
+    background-color: antiquewhite;
+    justify-self: center;
+    justify-content: center;
+  }
+
+  .contactDetails {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .mainImg {
+    background-color: blueviolet;
+    height: 290px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .description {
+    background-color: #c2bda0;
+    height: 60px;
+  }
+
+  .mainImgArea {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  img.leftArrow {
+    display: none;
+  }
+  /* 
+  .leftArrow {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 160px;
+  } */
+
+  .mainImg {
+    height: 300px;
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  img.rightArrow {
+    display: none;
+  }
+
+  /* .rightArrow {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 140px;
+  } */
+
+  .textArea {
+    width: 340px;
+    height: 40px;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .textStyle {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .imgIconArea {
+    width: 340px;
+    height: 60px;
+    display: flex;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+  }
+
+  .imgIcons {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 30px;
+    padding: 0px;
+    /* opacity: 50%; */
+  }
+
+  .selectedImg {
+    height: 60px;
+    width: 60px;
+    margin: 0px;
+    padding: 0px;
+    /* opacity: 100%; */
+  }
 }
