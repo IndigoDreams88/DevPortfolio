@@ -25,7 +25,7 @@ function LeftPanel() {
         <div className={styles.rightPanel}>
           <center>
             <img
-              src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/88151890_10157870169663467_6306148425989619712_n.jpg?_nc_cat=100&_nc_sid=e007fa&_nc_oc=AQkcGsSdgBluNypicz0233qucetbdsQUfU2ksdA-gOCN-lVQGwxa28KgQt1F8AISr6E&_nc_ht=scontent-lht6-1.xx&oh=f54e8d70bae0c9d8d41440ada169c18d&oe=5E80AE8B"
+              src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/88151890_10157870169663467_6306148425989619712_n.jpg?_nc_cat=100&_nc_sid=e007fa&_nc_oc=AQk_6JU4bCZB89dBMcrmjkLNHotxUe0CYcRl5ddjlUOC_C0r3nrCuhzshrBihrkromo&_nc_ht=scontent-lht6-1.xx&oh=4efca98c9947e2fa48b35fab77e9daab&oe=5EA94B75"
               alt="portrait"
               className={styles.portrait}
             />
