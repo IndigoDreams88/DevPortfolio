@@ -123,6 +123,27 @@
   transform: scale(1.12);
 }
 
+.katas {
+  margin-top: 40px;
+  background-image: url("/appleScreen.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 215px;
+}
+
+.katasImg {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  height: 115px;
+  width: 200px;
+  transition: transform 0.2s;
+}
+
+.katas:hover {
+  transform: scale(1.12);
+}
+
 .linksArea {
   margin-top: 50px;
 }

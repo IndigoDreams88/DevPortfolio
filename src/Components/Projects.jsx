@@ -103,6 +103,27 @@ function Projects() {
                     </div>
                   </div>
                 </a>
+
+                <a
+                  target="_blank"
+                  href="https://github.com/IndigoDreams88/Fundamentals-Katas"
+                >
+                  <div className={styles.katas}>
+                    <img
+                      src="/abstractBackground.jpg"
+                      className={styles.katasImg}
+                      alt="websiteImg"
+                    />
+                    <div className={styles.linksArea}>
+                      <a
+                        href="https://github.com/IndigoDreams88/Fundamentals-Katas"
+                        className={styles.links1}
+                      >
+                        View the code
+                      </a>
+                    </div>
+                  </div>
+                </a>
               </div>
 
               <div className={styles.contactDetails}>
