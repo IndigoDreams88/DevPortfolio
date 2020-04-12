@@ -54,24 +54,26 @@
 
 .projectArea {
   display: grid;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  height: 540px;
   justify-content: center;
 }
 
 .Ambiscape {
-  margin-top: 10px;
-  background-image: url("https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/89737632_10157899286443467_1808594154066804736_n.jpg?_nc_cat=111&_nc_sid=e007fa&_nc_oc=AQkzE8I0hv44OWhnVeUuyIe2oVP-1gQZMCL_XPShUGZxaTdigNF96TCs7j01RbzJ0I8&_nc_ht=scontent-lhr8-1.xx&oh=a6a1e881912ffcab05d2285d0544d874&oe=5E92A976");
+  margin-top: 40px;
+  background-image: url("/appleScreen.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 230px;
-  width: 280px;
+  height: 250px;
+  width: 215px;
 }
 
 .AmbiscapeImg {
-  margin-top: 10px;
+  margin-top: 8px;
   margin-bottom: 0px;
-  height: 150px;
-  width: 260px;
+  height: 115px;
+  width: 200px;
   transition: transform 0.2s;
 }
 
@@ -80,19 +82,19 @@
 }
 
 .NCNews {
-  margin-top: 20px;
-  background-image: url("https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/89737632_10157899286443467_1808594154066804736_n.jpg?_nc_cat=111&_nc_sid=e007fa&_nc_oc=AQkzE8I0hv44OWhnVeUuyIe2oVP-1gQZMCL_XPShUGZxaTdigNF96TCs7j01RbzJ0I8&_nc_ht=scontent-lhr8-1.xx&oh=a6a1e881912ffcab05d2285d0544d874&oe=5E92A976");
+  margin-top: 40px;
+  background-image: url("/appleScreen.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 230px;
-  width: 280px;
+  height: 250px;
+  width: 215px;
 }
 
 .NCNewsImg {
   margin-top: 10px;
   margin-bottom: 0px;
-  height: 150px;
-  width: 260px;
+  height: 115px;
+  width: 200px;
   transition: transform 0.2s;
 }
 
@@ -100,15 +102,54 @@
   transform: scale(1.12);
 }
 
-.buttons {
+.desertAdventure {
+  margin-top: 40px;
+  background-image: url("/appleScreen.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 215px;
+}
+
+.desertAdventureImg {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  height: 115px;
+  width: 200px;
+  transition: transform 0.2s;
+}
+
+.desertAdventure:hover {
+  transform: scale(1.12);
+}
+
+.linksArea {
+  margin-top: 50px;
+}
+
+.links1 {
+  display: inline-block;
   font-family: "Dosis", sans-serif;
   font-size: 20px;
   color: black;
   text-decoration: none;
-  margin: 20px;
+  margin: 10px;
 }
 
-.buttons:hover {
+.links1:hover {
+  color: #41aba9;
+}
+
+.links2 {
+  display: inline-block;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.links2:hover {
   color: #41aba9;
 }
 
@@ -172,12 +213,13 @@
     display: grid;
     grid-template-rows: 1fr;
     justify-content: center;
+    margin-bottom: 150px;
   }
 
   .Ambiscape {
     margin-top: 30px;
-    margin-bottom: 30px;
-    background-image: url("https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/89737632_10157899286443467_1808594154066804736_n.jpg?_nc_cat=111&_nc_sid=e007fa&_nc_oc=AQkzE8I0hv44OWhnVeUuyIe2oVP-1gQZMCL_XPShUGZxaTdigNF96TCs7j01RbzJ0I8&_nc_ht=scontent-lhr8-1.xx&oh=a6a1e881912ffcab05d2285d0544d874&oe=5E92A976");
+    margin-bottom: 90px;
+    background-image: url("/appleScreen.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 230px;
@@ -198,8 +240,8 @@
 
   .NCNews {
     margin-top: 30px;
-    margin-bottom: 30px;
-    background-image: url("https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/89737632_10157899286443467_1808594154066804736_n.jpg?_nc_cat=111&_nc_sid=e007fa&_nc_oc=AQkzE8I0hv44OWhnVeUuyIe2oVP-1gQZMCL_XPShUGZxaTdigNF96TCs7j01RbzJ0I8&_nc_ht=scontent-lhr8-1.xx&oh=a6a1e881912ffcab05d2285d0544d874&oe=5E92A976");
+    margin-bottom: 90px;
+    background-image: url("/appleScreen.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 230px;
@@ -218,7 +260,37 @@
     transform: scale(1.12);
   }
 
-  .buttons {
+  .desertAdventure {
+    margin-top: 30px;
+    margin-bottom: 90px;
+    background-image: url("/appleScreen.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 230px;
+    width: 280px;
+  }
+
+  .desertAdventureImg {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 150px;
+    width: 260px;
+    transition: transform 0.2s;
+  }
+
+  .desertAdventure:hover {
+    transform: scale(1.12);
+  }
+
+  .links1 {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+  .links2 {
     font-family: "Dosis", sans-serif;
     font-size: 20px;
     color: black;
@@ -226,7 +298,11 @@
     margin: 20px;
   }
 
-  .buttons:hover {
+  .links1:hover {
+    color: #41aba9;
+  }
+
+  .links2:hover {
     color: #41aba9;
   }
 }
@@ -252,7 +328,7 @@
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     padding: 0px;
   }
 
@@ -296,7 +372,7 @@
   .Ambiscape {
     margin-top: 30px;
     margin-bottom: 30px;
-    background-image: url("https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/89737632_10157899286443467_1808594154066804736_n.jpg?_nc_cat=111&_nc_sid=e007fa&_nc_oc=AQkzE8I0hv44OWhnVeUuyIe2oVP-1gQZMCL_XPShUGZxaTdigNF96TCs7j01RbzJ0I8&_nc_ht=scontent-lhr8-1.xx&oh=a6a1e881912ffcab05d2285d0544d874&oe=5E92A976");
+    background-image: url("/appleScreen.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 230px;
@@ -318,7 +394,7 @@
   .NCNews {
     margin-top: 30px;
     margin-bottom: 30px;
-    background-image: url("https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/89737632_10157899286443467_1808594154066804736_n.jpg?_nc_cat=111&_nc_sid=e007fa&_nc_oc=AQkzE8I0hv44OWhnVeUuyIe2oVP-1gQZMCL_XPShUGZxaTdigNF96TCs7j01RbzJ0I8&_nc_ht=scontent-lhr8-1.xx&oh=a6a1e881912ffcab05d2285d0544d874&oe=5E92A976");
+    background-image: url("/appleScreen.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 230px;
@@ -337,7 +413,29 @@
     transform: scale(1.12);
   }
 
-  .buttons {
+  .desertAdventure {
+    margin-top: 30px;
+    margin-bottom: 90px;
+    background-image: url("/appleScreen.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 230px;
+    width: 280px;
+  }
+
+  .desertAdventureImg {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 150px;
+    width: 260px;
+    transition: transform 0.2s;
+  }
+
+  .desertAdventure:hover {
+    transform: scale(1.12);
+  }
+
+  .links1 {
     font-family: "Dosis", sans-serif;
     font-size: 20px;
     color: black;
@@ -345,7 +443,19 @@
     margin: 20px;
   }
 
-  .buttons:hover {
+  .links2 {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+  }
+
+  .links1:hover {
+    color: #41aba9;
+  }
+
+  .links2:hover {
     color: #41aba9;
   }
 }
@@ -379,7 +489,7 @@
     font-family: "Rock Salt", cursive;
     font-size: 40px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
     margin-left: 0px;
     margin-right: 0px;
     padding: 0px;
@@ -401,7 +511,7 @@
   }
 
   .contactDetails {
-    margin-top: 25px;
+    margin-top: 600px;
     font-family: "Dosis", sans-serif;
     font-size: 20px;
   }
@@ -413,9 +523,9 @@
   }
 
   .Ambiscape {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-image: url("https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/89737632_10157899286443467_1808594154066804736_n.jpg?_nc_cat=111&_nc_sid=e007fa&_nc_oc=AQkzE8I0hv44OWhnVeUuyIe2oVP-1gQZMCL_XPShUGZxaTdigNF96TCs7j01RbzJ0I8&_nc_ht=scontent-lhr8-1.xx&oh=a6a1e881912ffcab05d2285d0544d874&oe=5E92A976");
+    margin-top: 650px;
+    margin-bottom: 50px;
+    background-image: url("/appleScreen.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 230px;
@@ -435,9 +545,9 @@
   }
 
   .NCNews {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-image: url("https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/89737632_10157899286443467_1808594154066804736_n.jpg?_nc_cat=111&_nc_sid=e007fa&_nc_oc=AQkzE8I0hv44OWhnVeUuyIe2oVP-1gQZMCL_XPShUGZxaTdigNF96TCs7j01RbzJ0I8&_nc_ht=scontent-lhr8-1.xx&oh=a6a1e881912ffcab05d2285d0544d874&oe=5E92A976");
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-image: url("/appleScreen.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 230px;
@@ -456,7 +566,38 @@
     transform: scale(1.12);
   }
 
-  .buttons {
+  .desertAdventure {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url("/appleScreen.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 230px;
+    width: 280px;
+  }
+
+  .desertAdventureImg {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 150px;
+    width: 260px;
+    transition: transform 0.2s;
+  }
+
+  .desertAdventure:hover {
+    transform: scale(1.12);
+  }
+
+  .links1 {
+    display: block;
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-top: 100px;
+  }
+
+  .links2 {
     display: block;
     font-family: "Dosis", sans-serif;
     font-size: 20px;
@@ -465,7 +606,11 @@
     margin: 20px;
   }
 
-  .buttons:hover {
+  .links1:hover {
+    color: #41aba9;
+  }
+
+  .links2:hover {
     color: #41aba9;
   }
 }

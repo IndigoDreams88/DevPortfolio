@@ -37,22 +37,24 @@ function Projects() {
                       className={styles.AmbiscapeImg}
                       alt="websiteImg"
                     />
+                    <div className={styles.linksArea}>
+                      <a
+                        href="https://github.com/IndigoDreams88/BE-Ambiscape"
+                        className={styles.links1}
+                      >
+                        View back end code
+                      </a>
+
+                      <a
+                        href="https://github.com/IndigoDreams88/FE-Ambiscape"
+                        className={styles.links2}
+                      >
+                        View front end code
+                      </a>
+                    </div>
                   </div>
                 </a>
-                <div className={styles.AmbiscapeLinks}>
-                  <a
-                    href="https://github.com/IndigoDreams88/BE-Ambiscape"
-                    className={styles.buttons}
-                  >
-                    View back end code
-                  </a>
-                  <a
-                    href="https://github.com/IndigoDreams88/FE-Ambiscape"
-                    className={styles.buttons}
-                  >
-                    View front end code
-                  </a>
-                </div>
+
                 <a
                   target="_blank"
                   href="https://5e2592241fec0681776afc2c--zen-aryabhata-2c1646.netlify.com/"
@@ -63,23 +65,46 @@ function Projects() {
                       className={styles.NCNewsImg}
                       alt="websiteImg"
                     />
+                    <div className={styles.linksArea}>
+                      <a
+                        href="https://github.com/IndigoDreams88/nc-news-project.git"
+                        className={styles.links1}
+                      >
+                        View back end code
+                      </a>
+
+                      <a
+                        href="https://github.com/IndigoDreams88/NC-News-Chronicles-Final.git"
+                        className={styles.links2}
+                      >
+                        View front end code
+                      </a>
+                    </div>
                   </div>
                 </a>
-                <div className={styles.NCNewsLinks}>
-                  <a
-                    href="https://github.com/IndigoDreams88/nc-news-project.git"
-                    className={styles.buttons}
-                  >
-                    View back end code
-                  </a>
-                  <a
-                    href="https://github.com/IndigoDreams88/NC-News-Chronicles-Final.git"
-                    className={styles.buttons}
-                  >
-                    View front end code
-                  </a>
-                </div>
+
+                <a
+                  target="_blank"
+                  href="https://practical-brown-f8150b.netlify.com/"
+                >
+                  <div className={styles.desertAdventure}>
+                    <img
+                      src="/DesertAdventureGame.jpeg"
+                      className={styles.desertAdventureImg}
+                      alt="websiteImg"
+                    />
+                    <div className={styles.linksArea}>
+                      <a
+                        href="https://github.com/IndigoDreams88/DesertAdventureGame"
+                        className={styles.links1}
+                      >
+                        View the code
+                      </a>
+                    </div>
+                  </div>
+                </a>
               </div>
+
               <div className={styles.contactDetails}>
                 Email: svidler2011@gmail.com
               </div>
