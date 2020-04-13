@@ -303,6 +303,27 @@
     transform: scale(1.12);
   }
 
+  .katas {
+    margin-top: 40px;
+    background-image: url("/appleScreen.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 230px;
+    width: 280px;
+  }
+
+  .katasImg {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 150px;
+    width: 260px;
+    transition: transform 0.2s;
+  }
+
+  .katas:hover {
+    transform: scale(1.12);
+  }
+
   .links1 {
     font-family: "Dosis", sans-serif;
     font-size: 20px;
@@ -456,6 +477,27 @@
     transform: scale(1.12);
   }
 
+  .katas {
+    margin-top: 40px;
+    background-image: url("/appleScreen.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 230px;
+    width: 280px;
+  }
+
+  .katasImg {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 150px;
+    width: 260px;
+    transition: transform 0.2s;
+  }
+
+  .katas:hover {
+    transform: scale(1.12);
+  }
+
   .links1 {
     font-family: "Dosis", sans-serif;
     font-size: 20px;
@@ -492,7 +534,7 @@
   }
 
   .rightPanel {
-    height: 100%;
+    height: 1550px;
     background-color: #f2f19e;
   }
 
@@ -532,7 +574,7 @@
   }
 
   .contactDetails {
-    margin-top: 600px;
+    margin-top: 950px;
     font-family: "Dosis", sans-serif;
     font-size: 20px;
   }
@@ -544,7 +586,7 @@
   }
 
   .Ambiscape {
-    margin-top: 650px;
+    margin-top: 900px;
     margin-bottom: 50px;
     background-image: url("/appleScreen.jpg");
     background-size: 100%;
@@ -606,6 +648,27 @@
   }
 
   .desertAdventure:hover {
+    transform: scale(1.12);
+  }
+
+  .katas {
+    margin-top: 40px;
+    background-image: url("/appleScreen.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 230px;
+    width: 280px;
+  }
+
+  .katasImg {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 150px;
+    width: 260px;
+    transition: transform 0.2s;
+  }
+
+  .katas:hover {
     transform: scale(1.12);
   }
 
