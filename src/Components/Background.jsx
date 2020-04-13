@@ -54,7 +54,7 @@ function Background() {
         <div className={styles.rightPanel}>
           <center>
             <img
-              src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/71751708_10157424386828467_7210043775404474368_n.jpg?_nc_cat=110&_nc_oc=AQkBzKjxnDr4xdxQTKyHTcvH50NOoP8LuK_q7J-izeUs-daWhA7ufYZYTDXo_nMgL8U&_nc_ht=scontent-lhr8-1.xx&oh=f988696439a403c954c97dbdb5ce4be8&oe=5EA8030D"
+              src="/guineaPigs.jpg"
               alt="guineaPigs"
               className={styles.portrait}
             />
