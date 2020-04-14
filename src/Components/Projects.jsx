@@ -33,7 +33,7 @@ function Projects() {
                 <a target="_blank" href="https://ambiscape.netlify.com/">
                   <div className={styles.Ambiscape}>
                     <img
-                      src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/90342589_10157899244123467_4270764648480899072_n.jpg?_nc_cat=103&_nc_sid=e007fa&_nc_oc=AQnfglNUCTQT4O8uVe1tIg8CF2dOBWjQD83eleTgZGTKNjDVKjvsIswb9F3t3McvY_o&_nc_ht=scontent-lht6-1.xx&oh=7fd95b1071322d41a6fc24a96dc8403e&oe=5E929690"
+                      src="/Ambiscape.png"
                       className={styles.AmbiscapeImg}
                       alt="websiteImg"
                     />
@@ -61,7 +61,7 @@ function Projects() {
                 >
                   <div className={styles.NCNews}>
                     <img
-                      src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/89786183_10157899245038467_7897954904654741504_n.jpg?_nc_cat=106&_nc_sid=e007fa&_nc_oc=AQnEDbgh2dgLRSUSfgPFuKJ_BP7VGqbpiG1ns82s5n9ILX31dG5mnpzb9ht6bN_X-gM&_nc_ht=scontent-lht6-1.xx&oh=4860f1fd5f68dc9dda39d6127031e667&oe=5E93704A"
+                      src="/NCNews1.png"
                       className={styles.NCNewsImg}
                       alt="websiteImg"
                     />
