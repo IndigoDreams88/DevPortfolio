@@ -9,14 +9,14 @@ class Artwork extends Component {
   state = {
     currentIndex: 1,
     currentIndexURL: "",
-    picturesArray: data
+    picturesArray: data,
   };
 
   nextProperty = () => {
     if (this.state.currentIndex < this.state.picturesArray.length - 1) {
       const newIndex = this.state.currentIndex + 1;
       this.setState({
-        currentIndex: newIndex
+        currentIndex: newIndex,
       });
       console.log(this.state.currentIndex);
     }
@@ -26,7 +26,7 @@ class Artwork extends Component {
     const newIndex = this.state.currentIndex - 1;
     if (this.state.currentIndex > 0) {
       this.setState({
-        currentIndex: newIndex
+        currentIndex: newIndex,
       });
       console.log(this.state.currentIndex);
     }
@@ -97,7 +97,7 @@ class Artwork extends Component {
                   />
                 </div>
                 <img
-                  src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/cp0/90386183_10157926150758467_162328550945325056_n.jpg?_nc_cat=105&_nc_sid=e007fa&_nc_oc=AQlPeFF9Dd1WCSTP7ejFMQ6baHfMkMjVFviBSekEwHvmukQ-Uhbe8QIGNEIE6xqATx8&_nc_ht=scontent-lht6-1.xx&oh=ce9d3012db7cf21513ad990b554d16bc&oe=5E9B3971"
+                  src="/icons8-back-50.png"
                   alt="leftArrow"
                   className={styles.leftArrow}
                   onClick={() => this.prevProperty()}
@@ -110,7 +110,7 @@ class Artwork extends Component {
                 />
 
                 <img
-                  src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/cp0/91002920_10157926150863467_349901171604848640_n.jpg?_nc_cat=102&_nc_sid=e007fa&_nc_oc=AQkftfg4F9MGz_WtPSvCg3byONgAez4voQS2MRpzpZfxcSTZmsD2V7BNWL0F3711hIE&_nc_ht=scontent-lhr8-1.xx&oh=6fa68c884b8523e0e6accb3c86619044&oe=5E9B91D7"
+                  src="/icons8-forward-50.png"
                   alt="rightArrow"
                   className={styles.rightArrow}
                   onClick={() => this.nextProperty()}
@@ -183,8 +183,8 @@ class Artwork extends Component {
     );
   }
 
-  selectMiniImg = slideNum => {
-    const selected = this.state.picturesArray.filter(picture => {
+  selectMiniImg = (slideNum) => {
+    const selected = this.state.picturesArray.filter((picture) => {
       if (slideNum === picture.id) {
         return picture.img;
       }
@@ -192,7 +192,7 @@ class Artwork extends Component {
 
     return this.setState({
       currentIndex: slideNum,
-      currentIndexURL: selected
+      currentIndexURL: selected,
     });
   };
 }
