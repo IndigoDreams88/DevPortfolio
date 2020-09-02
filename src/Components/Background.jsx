@@ -54,7 +54,7 @@ function Background() {
         <div className={styles.rightPanel}>
           <center>
             <img
-              src="/guineaPigs.jpg"
+              src="/theBoys.jpg"
               alt="guineaPigs"
               className={styles.portrait}
             />
