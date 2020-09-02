@@ -15,7 +15,7 @@ class NoughtsAndCrossesGame extends Component {
       MR: "",
       BL: "",
       BM: "",
-      BR: ""
+      BR: "",
     },
     cross: (
       <img
@@ -32,7 +32,7 @@ class NoughtsAndCrossesGame extends Component {
     P1Score: 0,
     P2Score: 0,
     winnerX: false,
-    winnerO: false
+    winnerO: false,
   };
 
   render() {
@@ -208,46 +208,46 @@ class NoughtsAndCrossesGame extends Component {
         MR: "",
         BL: "",
         BM: "",
-        BR: ""
+        BR: "",
       },
       player1: true,
       counter: 0,
       noWin: false,
       winnerX: false,
-      winnerO: false
+      winnerO: false,
     });
   };
 
-  toggleNoughtCross = position => {
+  toggleNoughtCross = (position) => {
     let { P1Turn, P2Turn, player1, board } = this.state;
     if (P1Turn === P2Turn) {
-      this.setState(currentState => {
+      this.setState((currentState) => {
         return {
           P1Turn: currentState.P1Turn + 1,
           player1: false,
           counter: currentState.counter + 1,
           board: {
             ...currentState.board,
-            [position]: "X"
-          }
+            [position]: "X",
+          },
         };
       });
     } else {
-      this.setState(currentState => {
+      this.setState((currentState) => {
         return {
           P2Turn: currentState.P2Turn + 1,
           player1: true,
           counter: currentState.counter + 1,
           board: {
             ...currentState.board,
-            [position]: "O"
-          }
+            [position]: "O",
+          },
         };
       });
     }
   };
 
-  checkResult = noWin => {
+  checkResult = (noWin) => {
     if (noWin) {
       return "No winner this time";
     }
@@ -260,11 +260,11 @@ class NoughtsAndCrossesGame extends Component {
       [UR, MM, BL],
       [UL, ML, BL],
       [UM, MM, BM],
-      [UR, MR, BR]
+      [UR, MR, BR],
     ];
 
     let result;
-    combinations.forEach(combination => {
+    combinations.forEach((combination) => {
       if (
         this.checkSegment(combination[0], combination[1], combination[2]) &&
         combination[0] === "X"
@@ -283,7 +283,6 @@ class NoughtsAndCrossesGame extends Component {
           this.setState({ P2Score: this.state.P2Score + 1, winnerO: true });
         }
       }
-      // console.log(combination[0], combination[1], combination[2], result);
     });
 
     return result;
@@ -302,14 +301,13 @@ class NoughtsAndCrossesGame extends Component {
   componentDidUpdate(prevProps, prevState) {
     const { player1name, player2name } = this.props;
     const { P1Score, P2Score } = this.state;
-    console.log(P1Score);
     if (
       prevProps.player1name !== player1name &&
       prevProps.player2name !== player2name
     ) {
       this.setState({
         winTag1: `Congratulations ${player1name}, you've won!`,
-        winTag2: `Congratulations ${player2name}, you've won!`
+        winTag2: `Congratulations ${player2name}, you've won!`,
       });
     }
     if (

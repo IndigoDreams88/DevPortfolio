@@ -57,24 +57,24 @@ function Projects() {
 
                 <a
                   target="_blank"
-                  href="https://5e2592241fec0681776afc2c--zen-aryabhata-2c1646.netlify.com/"
+                  href="https://friendly-wescoff-74185a.netlify.app/"
                 >
                   <div className={styles.NCNews}>
                     <img
-                      src="/NCNews1.png"
+                      src="/NCNewsChroniclesCats.png"
                       className={styles.NCNewsImg}
                       alt="websiteImg"
                     />
                     <div className={styles.linksArea}>
                       <a
-                        href="https://github.com/IndigoDreams88/nc-news-project.git"
+                        href="https://github.com/IndigoDreams88/NCNewsChroniclesBERefactored"
                         className={styles.links1}
                       >
                         View back end code
                       </a>
 
                       <a
-                        href="https://github.com/IndigoDreams88/NC-News-Chronicles-Final.git"
+                        href="https://github.com/IndigoDreams88/NCNewsChroniclesFERefactored"
                         className={styles.links2}
                       >
                         View front end code
